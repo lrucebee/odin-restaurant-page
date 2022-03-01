@@ -1,13 +1,13 @@
 import homePage from '../pages/home';
 import menuPage from '../pages/menu';
-import contactPage from '../pages/contact';
+import aboutPage from '../pages/about';
 import { renderPage } from './layout';
 
 const navEl = document.createElement('nav');
 const navItems = [
   { text: 'Home', pageEl: homePage, current: true },
   { text: 'Menu', pageEl: menuPage },
-  { text: 'Contact', pageEl: contactPage },
+  { text: 'About', pageEl: aboutPage },
 ];
 
 navItems.forEach(({ text, pageEl, current }) => {
